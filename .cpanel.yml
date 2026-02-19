@@ -1,0 +1,4 @@
+deployment:
+  tasks:
+    - export DEPLOYDIR=/home/bezajbam/public_html
+    - /bin/cp -R * $DEPLOYDIR
